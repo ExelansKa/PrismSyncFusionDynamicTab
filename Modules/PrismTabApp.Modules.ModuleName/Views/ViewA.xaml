@@ -1,0 +1,60 @@
+﻿<UserControl
+    x:Class="PrismTabApp.Modules.ModuleName.Views.ViewA"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:PrismTabApp.Modules.ModuleName.ViewModels"
+    xmlns:prism="http://prismlibrary.com/"
+    xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+    prism:ViewModelLocator.AutoWireViewModel="True">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Button
+            Grid.Row="0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Bottom"
+            Command="{Binding AddTabCommand}"
+            Content="Yeni Sekme Ekle" />
+
+        <syncfusion:TabControlExt
+            x:Name="TabControlContent"
+            Grid.Row="1"
+            CloseButtonType="{Binding CloseButtonType}"
+            EnableLabelEdit="{Binding EnableLabelEdit}"
+            ItemsSource="{Binding TabModels}"
+            SelectedItem="{Binding SelectedTab, Mode=TwoWay}"
+            ShowTabItemContextMenu="{Binding ShowTabItemContextMenu}"
+            ShowTabListContextMenu="{Binding ShowTabListContextMenu}"
+            TabItemHeaderStyle="{Binding TabItemHeaderStyle}"
+            TabItemLayout="{Binding TabItemLayout}"
+            TabItemSize="{Binding TabItemSize}"
+            TabScrollButtonVisibility="{Binding TabScrollButtonVisibility}"
+            TabScrollStyle="{Binding TabScrollStyle}"
+            TabStripPlacement="{Binding TabStripPlacement}">
+            <!--<syncfusion:TabItemExt Header="tabItem1">
+                <TextBlock Name="textBlock" Text="This is the first tab item." />
+            </syncfusion:TabItemExt>
+            <syncfusion:TabItemExt Header="tabItem2">
+                <TextBlock Name="textBlock1" Text="This is the second tab item." />
+            </syncfusion:TabItemExt>
+            <syncfusion:TabItemExt Header="tabItem3">
+                <TextBlock Name="textBlock2" Text="This is the third tab item." />
+            </syncfusion:TabItemExt>-->
+
+            <syncfusion:TabControlExt.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Header}" />
+                </DataTemplate>
+            </syncfusion:TabControlExt.ItemTemplate>
+            <syncfusion:TabControlExt.ContentTemplate>
+                <DataTemplate>
+                    <ContentControl prism:RegionManager.RegionName="{Binding RegionName}" />
+                </DataTemplate>
+            </syncfusion:TabControlExt.ContentTemplate>
+
+        </syncfusion:TabControlExt>
+    </Grid>
+</UserControl>

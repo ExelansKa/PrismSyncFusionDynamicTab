@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{68357868-3F49-4136-9D44-F775C5C51037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismTabApp.Modules.ModuleName.Tests", "Tests\PrismTabApp.Modules.ModuleName.Tests\PrismTabApp.Modules.ModuleName.Tests.csproj", "{F41EFACF-6B2F-4310-826E-9579F5D908C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{6A26FBF0-2360-4283-A076-2385CA153E1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismTabApp.Modules.ModuleName", "Modules\PrismTabApp.Modules.ModuleName\PrismTabApp.Modules.ModuleName.csproj", "{F749BAE9-4BD2-4EF9-A113-32A9E6CFBF02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{64E272F0-4142-4259-AB98-DFA6612EB74C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismTabApp.Services", "Services\PrismTabApp.Services\PrismTabApp.Services.csproj", "{5667D4E5-4893-4F6B-8669-5639401549B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismTabApp.Services.Interfaces", "Services\PrismTabApp.Services.Interfaces\PrismTabApp.Services.Interfaces.csproj", "{AB4DE09A-610B-4B88-A08B-3F098DD964E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismTabApp", "PrismTabApp\PrismTabApp.csproj", "{47A56ADC-13E9-4B19-B887-2EE99B93EE9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismTabApp.Core", "PrismTabApp.Core\PrismTabApp.Core.csproj", "{1A38606F-1B38-4662-9C0A-49240E66B7B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismTabApp.Modules.TabContent", "..\PrismTabApp.Modules.TabContent\PrismTabApp.Modules.TabContent.csproj", "{FCC360C2-2402-430A-A3DF-83F2A92B1528}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{92454C0C-3B95-4316-9E50-CD72551660FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismTabApp.Events", "PrismTabApp.Events\PrismTabApp.Events.csproj", "{3F00501E-2C42-4B7F-ACE3-77D7A71B1798}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F41EFACF-6B2F-4310-826E-9579F5D908C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41EFACF-6B2F-4310-826E-9579F5D908C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41EFACF-6B2F-4310-826E-9579F5D908C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41EFACF-6B2F-4310-826E-9579F5D908C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F749BAE9-4BD2-4EF9-A113-32A9E6CFBF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F749BAE9-4BD2-4EF9-A113-32A9E6CFBF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F749BAE9-4BD2-4EF9-A113-32A9E6CFBF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F749BAE9-4BD2-4EF9-A113-32A9E6CFBF02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5667D4E5-4893-4F6B-8669-5639401549B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5667D4E5-4893-4F6B-8669-5639401549B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5667D4E5-4893-4F6B-8669-5639401549B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5667D4E5-4893-4F6B-8669-5639401549B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB4DE09A-610B-4B88-A08B-3F098DD964E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4DE09A-610B-4B88-A08B-3F098DD964E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4DE09A-610B-4B88-A08B-3F098DD964E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4DE09A-610B-4B88-A08B-3F098DD964E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A56ADC-13E9-4B19-B887-2EE99B93EE9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A56ADC-13E9-4B19-B887-2EE99B93EE9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A56ADC-13E9-4B19-B887-2EE99B93EE9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A56ADC-13E9-4B19-B887-2EE99B93EE9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A38606F-1B38-4662-9C0A-49240E66B7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A38606F-1B38-4662-9C0A-49240E66B7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A38606F-1B38-4662-9C0A-49240E66B7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A38606F-1B38-4662-9C0A-49240E66B7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC360C2-2402-430A-A3DF-83F2A92B1528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC360C2-2402-430A-A3DF-83F2A92B1528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC360C2-2402-430A-A3DF-83F2A92B1528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC360C2-2402-430A-A3DF-83F2A92B1528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F00501E-2C42-4B7F-ACE3-77D7A71B1798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F00501E-2C42-4B7F-ACE3-77D7A71B1798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F00501E-2C42-4B7F-ACE3-77D7A71B1798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F00501E-2C42-4B7F-ACE3-77D7A71B1798}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F41EFACF-6B2F-4310-826E-9579F5D908C5} = {68357868-3F49-4136-9D44-F775C5C51037}
+		{F749BAE9-4BD2-4EF9-A113-32A9E6CFBF02} = {6A26FBF0-2360-4283-A076-2385CA153E1C}
+		{5667D4E5-4893-4F6B-8669-5639401549B4} = {64E272F0-4142-4259-AB98-DFA6612EB74C}
+		{AB4DE09A-610B-4B88-A08B-3F098DD964E4} = {64E272F0-4142-4259-AB98-DFA6612EB74C}
+		{FCC360C2-2402-430A-A3DF-83F2A92B1528} = {6A26FBF0-2360-4283-A076-2385CA153E1C}
+		{3F00501E-2C42-4B7F-ACE3-77D7A71B1798} = {92454C0C-3B95-4316-9E50-CD72551660FF}
+	EndGlobalSection
+EndGlobal
