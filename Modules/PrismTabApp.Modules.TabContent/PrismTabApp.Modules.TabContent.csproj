@@ -5,13 +5,10 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Prism.Wpf" Version="9.0.537" />
-    <PackageReference Include="Syncfusion.Shared.WPF" Version="28.1.41" />
-    <PackageReference Include="Syncfusion.Tools.WPF" Version="28.1.41" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\PrismTabApp.Core\PrismTabApp.Core.csproj" />
     <ProjectReference Include="..\..\PrismTabApp.Events\PrismTabApp.Events.csproj" />
     <ProjectReference Include="..\..\Services\PrismTabApp.Services.Interfaces\PrismTabApp.Services.Interfaces.csproj" />
-    <ProjectReference Include="..\PrismTabApp.Modules.TabContent\PrismTabApp.Modules.TabContent.csproj" />
   </ItemGroup>
 </Project>

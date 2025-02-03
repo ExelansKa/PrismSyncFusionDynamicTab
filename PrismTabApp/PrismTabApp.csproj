@@ -8,7 +8,6 @@
     <PackageReference Include="Prism.DryIoc" Version="9.0.537" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\PrismTabApp.Modules.TabContent\PrismTabApp.Modules.TabContent.csproj" />
     <ProjectReference Include="..\PrismTabApp.Core\PrismTabApp.Core.csproj" />
     <ProjectReference Include="..\Modules\PrismTabApp.Modules.ModuleName\PrismTabApp.Modules.ModuleName.csproj" />
     <ProjectReference Include="..\Services\PrismTabApp.Services.Interfaces\PrismTabApp.Services.Interfaces.csproj" />
