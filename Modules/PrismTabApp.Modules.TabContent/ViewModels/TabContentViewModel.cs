@@ -4,7 +4,7 @@ using PrismTabApp.Services.Interfaces;
 
 namespace PrismTabApp.Modules.TabContent.ViewModels
 {
-    public class TabContentViewModel : RegionViewModelBase
+    public class TabContentViewModel : RegionViewModelBase, IRegionMemberLifetime
     {
         private readonly IRegionManager _regionManager;
         private readonly IMessageService _messageService;
@@ -17,11 +17,18 @@ namespace PrismTabApp.Modules.TabContent.ViewModels
             Message = this._messageService.GetMessage();
         }
 
+        public bool KeepAlive
+        {
+            get
+            {
+                return false;
+            }
+        }
+
         public string Message
         {
             get { return _message; }
             set { SetProperty(ref _message, value); }
         }
-
     }
 }

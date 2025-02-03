@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows8.0</TargetFramework>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Prism.Wpf" Version="9.0.537" />
-    <PackageReference Include="Syncfusion.Shared.WPF" Version="28.1.41" />
-    <PackageReference Include="Syncfusion.Tools.WPF" Version="28.1.41" />
+    <PackageReference Include="Syncfusion.Shared.WPF" Version="28.2.3" />
+    <PackageReference Include="Syncfusion.Tools.WPF" Version="28.2.3" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\PrismTabApp.Core\PrismTabApp.Core.csproj" />
